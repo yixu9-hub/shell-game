@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shell Game: Find the Ball</title>
+    <script type="module" crossorigin src="./assets/index-DIA7ihwc.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CB1v-416.css">
+  </head>
+  <body>
+    <main class="game-shell">
+      <header class="topbar">
+        <h1>Shell Game: Find the Ball</h1>
+        <div class="status-row" aria-live="polite">
+          <span>Level <strong id="level">1</strong>/5</span>
+          <span>Score <strong id="score">0</strong></span>
+        </div>
+      </header>
+
+      <section class="game-area">
+        <div id="scene" aria-label="3D shell game table"></div>
+        <div id="message" class="message" role="status">Press Start to begin</div>
+      </section>
+
+      <nav class="controls" aria-label="Game controls">
+        <button id="start" type="button">Start</button>
+        <button id="next" type="button" disabled>Next Level</button>
+        <button id="restart" type="button">Restart</button>
+      </nav>
+    </main>
+
+  </body>
+</html>
